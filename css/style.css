@@ -1,0 +1,35 @@
+
+
+.video-list {
+    max-height: 400px;
+    /* 最大高さを指定 */
+    overflow-y: auto;
+    /* 内容がはみ出したときにスクロールできるようにする */
+    padding: 10px;
+    margin-top: 20px;
+    /* 上部にスペースを追加 */
+}
+
+
+.video-list {
+    display: none;
+}
+
+.icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    /* 丸の直径 */
+    height: 32px;
+    /* 丸の直径 */
+    border-radius: 99%;
+    /* 丸くする */
+    font-size: 16px;
+    /* アイコンのサイズ */
+    color: #000;
+    /* アイコンの色 */
+    margin-right: 8px;
+    /* アイコンとテキストの間の余白 */
+    padding: 10px;
+}

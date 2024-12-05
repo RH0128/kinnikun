@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>僕を信じてくださいAPI</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--Google Font:Zen Kaku Gothic Newを読み込み-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Zen+Kaku+Gothic+New', sans-serif;
+      }
+    </style>
+
+</head>
+
+<body>
+
+  <div class="flex justify-center bg-blue-100 min-h-[100vh] p-10">
+    <div class="container flex justify-center flex-col p-6 w-[375px] h-[812px] bg-blue-50 rounded-lg h-auto">
+      <h1 class="text-xl text-center font-bold mb-2 text-bold">運動しよ</h1>
+      <h class="text-sm text-center font-medium mb-6 text-bold">明日の天気にあったエクササイズを<br>きんにくんが紹介</h>
+
+      <!-- 画像を追加 -->
+      <div class="flex justify-center">
+        <img src="https://yt3.googleusercontent.com/ytc/AIdro_mhVUan-_wyTSs2g4SYN9KZEI9jzvn-AJd4Lj6YgLMj3lc=s900-c-k-c0x00ffffff-no-rj" alt="運動のイメージ" class="mb-6 rounded-md w-[80px]">
+      </div>
+
+      <ul class="list p-6 bg-white rounded-md">
+        <!-- この中にAPIのデータを表示します -->
+      </ul>
+
+      <!-- ボタンを押したら表示 -->
+      <!-- idをつける -->
+      <button id="aa" class="bg-blue-900 px-7 py-3.5 my-8 rounded-full  text-neutral-50 font-medium tracking-wide hover:opacity-60">きんにくんを呼び出す💪</button>
+
+      <ul class="video-list p-6 bg-gray-100 rounded-md">
+        <!-- この中にAPIのデータを表示します -->
+      </ul>
+
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
